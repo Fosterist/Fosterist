@@ -4,14 +4,13 @@ I build production backend systems and Telegram bots in Go — from LLM-powered 
 
 ## What I've built
 
-- **[news-bot](https://github.com/Fosterist/news)** — a Telegram news bot that fetches, filters, and summarizes content on a schedule using the Google Gemini API.
-- **[predict-bot](https://github.com/Fosterist/Predictions_bot)** — a Gemini-powered bot for automated predictions/analysis from live data sources.
-- **[economybot](https://github.com/Fosterist/economybot)** — tracks market/economic indicators and calendars, with Gemini-driven summaries and alerts.
-- **[vpnbot](https://github.com/Fosterist/vpnbot)** — a self-hosted VPN key service: Go backend, Docker deployment, Caddy reverse proxy, payment integration, and multi-language (i18n) support.
+- **[claude-anywhere](https://github.com/Fosterist/claude-anywhere)** — control [Claude Code](https://claude.com/claude-code) from your phone via Telegram: a bot that queues prompts and a lightweight agent that runs them locally, with cost/token tracking and step-by-step or autonomous execution modes.
+
+I also build production backend systems in Go — Telegram bots with LLM-powered automation, payment processing, and self-hosted infrastructure. Those are currently private; ask if you want a walkthrough.
 
 ## Stack
 
-Go · SQLite · Docker · Caddy · Telegram Bot API · Google Gemini API
+Go · SQLite · Docker · Caddy · Telegram Bot API · Claude API
 
 ## Currently
 
