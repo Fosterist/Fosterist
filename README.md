@@ -16,7 +16,7 @@ Other projects are currently private. Reach out on Telegram and I'll walk you th
 **Backend:** Go, Python (aiogram), Gin, GORM, gRPC, JWT auth
 **Data:** PostgreSQL, SQLite
 **AI/LLM:** Claude API, Google Gemini API
-**Payments:** cards, SBP, TON, Bitcoin, Litecoin, USDT (TRC-20)
+**Payments:** cards, TON, Bitcoin, Litecoin, USDT (TRC-20)
 **Infra:** Docker, Caddy, self-hosted deployment
 
 ## Currently
