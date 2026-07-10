@@ -1,21 +1,28 @@
-# Hi, I'm Fosterist
+# Привет, я Fosterist 👋
 
-I build production backend systems and Telegram bots in Go — from LLM-powered automation to payment processing and self-hosted infrastructure.
+### *Go-разработчик: self-hosted инфраструктура и автоматизация*
 
-## What I've built
+Проектирую и поддерживаю распределённые сервисы, где важны надёжность и минимальное вмешательство человека. Работаю на стыке бэкенда, автоматизации процессов и интеграций с LLM.
 
-- **[claude-anywhere](https://github.com/Fosterist/claude-anywhere)** — control [Claude Code](https://claude.com/claude-code) from your phone via Telegram: a bot that queues prompts and a lightweight agent that runs them locally, with cost/token tracking and step-by-step or autonomous execution modes.
+## Флагманы
 
-I also build production backend systems in Go — Telegram bots with LLM-powered automation, payment processing, and self-hosted infrastructure. Those are currently private; ask if you want a walkthrough.
+- **[claude-anywhere](https://github.com/Fosterist/claude-anywhere)**: управление [Claude Code](https://claude.com/claude-code) с телефона. Бот ставит промпты в очередь, локальный агент их выполняет, с трекингом токенов и стоимости, можно пошагово или в автономном режиме.
+- **[infra-pulse](https://github.com/Fosterist/infra-pulse)**: пассивный AI-watchdog для инфраструктуры. Собирает логи, docker-вывод, health-checks и Postgres-диагностику, отдаёт LLM на анализ и пингует в Telegram, только если что-то реально не так. Panel-agnostic, ничего не трогает, только читает и репортит.
 
-## Stack
+Остальные проекты пока закрытые. Пишите в Telegram, покажу вживую.
 
-Go · SQLite · Docker · Caddy · Telegram Bot API · Claude API
+## Стек
 
-## Currently
+**Backend:** Go · Python (aiogram) · Gin · GORM · gRPC · JWT-auth
+**Данные:** PostgreSQL · SQLite
+**AI/LLM:** Claude API · Google Gemini API
+**Платежи:** карты · СБП · TON · Bitcoin · Litecoin · USDT (TRC-20)
+**Инфра:** Docker · Caddy · self-hosted deployment
 
-Exploring tools for Telegram channel monetization and automation — happy to talk if you're building something similar.
+## Сейчас
 
-## Reach me
+Изучаю подходы к автоматизации цифровых продуктов и повышению их операционной эффективности.
 
-Telegram: https://t.me/brownn_support 
+## Контакт
+
+Telegram: https://t.me/brownn_support
