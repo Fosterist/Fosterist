@@ -1,28 +1,28 @@
-# Привет, я Fosterist 👋
+# Hi, I'm Fosterist 👋
 
-### *Go-разработчик: self-hosted инфраструктура и автоматизация*
+### *Go developer: self-hosted infrastructure and automation*
 
-Проектирую и поддерживаю распределённые сервисы, где важны надёжность и минимальное вмешательство человека. Работаю на стыке бэкенда, автоматизации процессов и интеграций с LLM.
+I design and maintain distributed services where reliability and minimal human intervention matter. I work at the intersection of backend development, process automation, and LLM integrations.
 
-## Флагманы
+## Flagship projects
 
-- **[claude-anywhere](https://github.com/Fosterist/claude-anywhere)**: управление [Claude Code](https://claude.com/claude-code) с телефона. Бот ставит промпты в очередь, локальный агент их выполняет, с трекингом токенов и стоимости, можно пошагово или в автономном режиме.
-- **[infra-pulse](https://github.com/Fosterist/infra-pulse)**: пассивный AI-watchdog для инфраструктуры. Собирает логи, docker-вывод, health-checks и Postgres-диагностику, отдаёт LLM на анализ и пингует в Telegram, только если что-то реально не так. Panel-agnostic, ничего не трогает, только читает и репортит.
+- **[claude-anywhere](https://github.com/Fosterist/claude-anywhere)**: control [Claude Code](https://claude.com/claude-code) from your phone. A bot queues prompts, a local agent runs them, with token and cost tracking, step by step or fully autonomous.
+- **[infra-pulse](https://github.com/Fosterist/infra-pulse)**: a passive AI watchdog for infrastructure. Collects logs, docker output, health checks, and Postgres diagnostics, hands them to an LLM for analysis, and pings Telegram only when something is actually wrong. Panel-agnostic, read-only, it never touches anything.
 
-Остальные проекты пока закрытые. Пишите в Telegram, покажу вживую.
+Other projects are currently private. Reach out on Telegram and I'll walk you through them.
 
-## Стек
+## Stack
 
-**Backend:** Go · Python (aiogram) · Gin · GORM · gRPC · JWT-auth
-**Данные:** PostgreSQL · SQLite
-**AI/LLM:** Claude API · Google Gemini API
-**Платежи:** карты · СБП · TON · Bitcoin · Litecoin · USDT (TRC-20)
-**Инфра:** Docker · Caddy · self-hosted deployment
+**Backend:** Go, Python (aiogram), Gin, GORM, gRPC, JWT auth
+**Data:** PostgreSQL, SQLite
+**AI/LLM:** Claude API, Google Gemini API
+**Payments:** cards, SBP, TON, Bitcoin, Litecoin, USDT (TRC-20)
+**Infra:** Docker, Caddy, self-hosted deployment
 
-## Сейчас
+## Currently
 
-Изучаю подходы к автоматизации цифровых продуктов и повышению их операционной эффективности.
+Exploring approaches to automating digital products and improving their operational efficiency.
 
-## Контакт
+## Contact
 
 Telegram: https://t.me/brownn_support
